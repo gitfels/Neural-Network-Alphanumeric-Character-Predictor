@@ -42,7 +42,7 @@ Prints the top 5 predictions and shows what the model saw.
 *Setup*\
 Either download this repo (and the required python modules in requirements.txt) manually or in the terminal, run:
 
-git clone https://github.com/gitfels/Neural-Network-Alphanumeric-Character-Predictor\
+git clone https://github.com/gitfels/Neural-Network-Alphanumeric-Character-Predictor \
 cd Neural-Network-Alphanumeric-Character-Predictor\
 pip install -r requirements.txt
 
