@@ -50,7 +50,7 @@ pip install -r requirements.txt
 Download the EMNIST dataset from Kaggle (see also the official NIST page) and place these files in the data/ folder. Rename the file emnist-balanced-train.csv to training.csv (its path should be data/training.csv). This file is not included in this repo due to its size.
 
 *Train*\
-Run trainingletters.py. NOTE: this is reduntant, as training parameters are already provived in emnist_params.npz. DOUBLE NOTE: this can take HOURS.
+Run trainingletters.py. NOTE: this is redundant, as training parameters are already provided in emnist_params.npz.
 
 *Hold-Out Set*\
 Run display.py. Shows one dev-set character with the predicted and actual labels, then prints the accuracy on the whole dev set.
