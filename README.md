@@ -4,15 +4,15 @@ A neural network that recognizes handwritten digits and letters, written in plai
 
 I started from the Vizuara "neural network from scratch" tutorial on YouTube, which builds a digit classifier on MNIST, and extended it to cover digits and letters together on EMNIST. The code in this repo is my own adaptation and extensions.
 
-**RESULTS**\
-*Metric | Value*\
+**RESULTS**
+*Metric | Value*
 
-Training Accuracy (1000 Iterations) | ~71%
-Dev Accuracy (20% held-out split) | ~70%
-Model | 784 inputs --> 128 --> 47 softmax
+Training Accuracy (1000 Iterations) | ~71%\
+Dev Accuracy (20% held-out split) | ~70%\
+Model | 784 inputs --> 128 --> 47 softmax\
 
 **Training Curves can be viewed in the graphs folder.**\
-*What do the curves show?*\
+*What do the curves show?*
 
 Training and dev accuracy stay within about two points of each other, so the model is not overfitting. It is limited by its size and by plain full-batch gradient descent, not by memorization.
 Loss starts near 13.8, far above the ~3.85 expected from random guessing across 47 classes. My uniform (-0.5, 0.5) weight initialization starts the network confidently wrong, and the first ~50 iterations mostly undo that.
