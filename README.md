@@ -39,6 +39,13 @@ Crops to the character, pads to a square, shrinks, and centers it in a 28x28 fra
 Prints the top 5 predictions and shows what the model saw.
 
 **How can you do this?**\
+*Setup*\
+Either download this repo (and the required python modules in requirements.txt) manually or in the terminal, run:\
+
+git clone https://github.com/gitfels/Neural-Network-Alphanumeric-Character-Predictor
+cd Neural-Network-Alphanumeric-Character-Predictor
+pip install -r requirements.txt
+
 *Get the data*\
 Download the EMNIST dataset from Kaggle (see also the official NIST page) and place these files in the data/ folder. Rename the file emnist-balanced-train.csv to training.csv (its path should be data/training.csv). This file is not included in this repo due to its size.
 
