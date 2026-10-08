@@ -60,5 +60,5 @@ Real handwriting from a mouse or a phone can look different from EMNIST scans. T
 Only single characters are supported so far.
 
 **Acknowledgements**\
-Tutorial: Vizuara, "Neural Network from Scratch" on YouTube.
+Tutorial: Vizuara, "Neural Network from Scratch" on YouTube.\
 Dataset: Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST: an extension of MNIST to handwritten letters.
