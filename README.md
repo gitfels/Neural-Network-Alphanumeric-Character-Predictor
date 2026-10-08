@@ -1,4 +1,4 @@
-**EMNIST Handwritten Character Recognizer (from scratch)**\
+**EMNIST Handwritten Character Recognizer (from scratch)**
 
 A neural network that recognizes handwritten digits and letters, written in plain NumPy with no machine-learning frameworks. It is trained on the EMNIST Balanced dataset (47 classes) and reaches about 70% accuracy on held-out data.
 
